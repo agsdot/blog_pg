@@ -12,14 +12,14 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: blog_pg_development
-  pool: 5
-  username: blog_pg
-  password:
-
+# development:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: blog_pg_development
+#   pool: 5
+#   username: blog_pg
+#   password:
+# 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
@@ -43,7 +43,7 @@ test:
   encoding: unicode
   database: blog_pg_test
   pool: 5
-  username: blog_pg
+  username: agsdot
   password:
 
 production:
@@ -51,5 +51,5 @@ production:
   encoding: unicode
   database: blog_pg_production
   pool: 5
-  username: blog_pg
+  username: agsdot
   password:
